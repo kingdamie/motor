@@ -43,7 +43,8 @@
         position: fixed;
         z-index: 1;
         right: 0;
-        height: 100vh;
+        top: 0;
+        bottom: 0;
       }
       ul {
         list-style: none;
@@ -88,13 +89,7 @@
         width: 100%;
         scroll-snap-align: start;
       }
-      .lambo {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 15px;
-        padding-top: 3rem;
-      }
+      
       .overview {
         flex: 7;
         padding: 1rem;
@@ -219,4 +214,24 @@
       .he {
         color: gold;
         font-size: 20px;
+      }
+      @media (max-width: 640px) {
+        .lambo {
+          flex-direction: column;
+      }
+      .three {
+        display: flex;
+        flex-direction: column;
+   
+      }
+      .image {
+       
+        flex-direction: column;
+       
+      }
+      section {
+        
+        height: fit-content;
+        
+      }
       }
