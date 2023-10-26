@@ -89,7 +89,13 @@
         width: 100%;
         scroll-snap-align: start;
       }
-      
+      .lambo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        padding-top: 3rem;
+      }
       .overview {
         flex: 7;
         padding: 1rem;
