@@ -223,6 +223,7 @@
       }
       @media (max-width: 640px) {
         .lambo {
+          display: block;
           flex-direction: column;
       }
       .three {
